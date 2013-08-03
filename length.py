@@ -8,7 +8,6 @@ def get_rules():
             lenDict[lineList[1]] = float(lineList[3])
         else:    # the blank line encountered
             break
-
     lenDict['miles'] = lenDict['mile']
     lenDict['yards'] = lenDict['yard']
     lenDict['inches'] = lenDict['inch']
