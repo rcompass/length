@@ -16,6 +16,7 @@ def get_rules():
     lenDict['furlongs'] = lenDict['furlong']
     lenDict['meters'] = lenDict['meter'] = 1
 
+
 # process the 2nd part of the input file, display and save the result
 def cal_save():
     outFileHandle.write(email + '\n\n')
